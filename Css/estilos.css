@@ -1,0 +1,227 @@
+/*
+=====================================================================
+Package  : Css
+Name     : estilos.css
+Author   : Jesús Díaz 
+Copyright: Agilecode
+=====================================================================
+*/
+body{
+    text-align :center;
+    background : #F1F1F1;
+    margin     : 0;
+    font-family: Helvetica, Tahoma, Verdana;
+}
+body a{
+    text-decoration: none;
+    color          : #258dc8;
+}
+body a:hover{
+    text-decoration: underline;
+    color          : #4398C6;
+}
+hr{
+    margin: 5px 0;
+}
+hr, .hrcolor {
+    height          : 1px;
+    border          : 0;
+    color           : #666;
+    background-color: #D1D1D1;
+}
+h5{
+    margin: 30px 7px 5px 7px;	
+    color : #666666;
+}
+input[type="text"]{
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+    height               : 25px;
+}
+input[type="date"]{
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+    height               : 25px;
+}
+input[type="email"]{
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+    height               : 25px;
+}
+input[type="password"]{
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+    height               : 25px;
+}
+input[type="submit"]{
+    float  : right;
+    margin : 10px;
+    padding: 5px 12px;
+}
+select {
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+    height               : 25px;
+}
+textarea{
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+    border               : 1px solid #D1D1D1;
+    padding              : 2px 3px;
+    margin               : 5px 7px;
+}
+/*header*/
+header{
+    background: #2a86b9;
+    overflow  : hidden;
+    margin    : 0 auto;
+}
+header #wrapper-logo{
+    float   : left;	
+    overflow: hidden;
+}
+header #wrapper-logo img{
+    width : 180px;
+    height: 65px;
+}
+/*container*/
+#container{
+    width                : 1100px;
+    overflow             : hidden;
+    background           : #FFFFFF;
+    margin               : 0 auto;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius        : 0 0 3px 3px;
+    text-align           : left;
+    border-left          : 1px solid #D1D1D1;
+    border-right         : 1px solid #D1D1D1;
+    border-bottom        : 1px solid #D1D1D1;
+}
+#container #row1{
+    float  : left;
+    padding: 10px;	
+    width  : 170px;
+}
+#container #row2{
+    float  : left;
+    padding: 10px;
+    width  : 690px;
+}
+#row2 #wrapper-search{
+    background           : #F1F1F1;
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+}
+#row2 #wrapper-search img{
+    height: 15px;
+    margin: 0 5px;
+}
+#container #row3{
+    float  : left;
+    padding: 10px;
+    width  : 180px;
+}
+/*footer*/
+footer{
+    font-size: 11px;
+    color    : #666666;
+    width    : 1100px;
+    overflow : hidden;
+    margin   : 0 auto;
+}	
+footer #copyleft{
+    float  : left;
+    padding: 10px;
+}
+footer #menu-footer{
+    float:right;
+}
+footer #menu-footer ul{
+    list-style: none;
+}
+footer #menu-footer ul li{
+    float       : left;
+    margin-right: 10px;
+}
+/*Mas elementos*/
+#containter-box{
+    overflow             : hidden;
+    margin-bottom        : 10px;
+    border               : 1px solid #D1D1D1;
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;
+}
+#containter-box #title-box{
+    text-align           : center;
+    color                : #FFFFFF;
+    font-size            : 13px;
+    padding              : 5px 7px;
+    font-weight          : bold;
+    background           : #2a86b9;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius        : 3px 3px 0 0;
+}
+#containter-box #wrapper-council{
+    font-style: oblique;
+    color     : #666666;
+    font-size : 11px;
+    margin    : 5px 7px;
+}
+#containter-box #wrapper-photo{
+    float : left;
+    height: 210px;
+    width : 350px;
+    margin: 10px;
+    border: 1px dashed #D1D1D1;
+}
+#containter-box #wrapper-photo img{
+    height: 200px;
+    width : 340px;
+    margin: 5px;
+}
+#containter-box #wrapper-data{
+    float : left;
+    height: 210px;
+    width : 290px;
+}
+#containter-box #wrapper-data table{
+    font-size: 12px;    
+}
+#containter-box #wrapper-description{
+    float     : left;
+    padding   : 5px;
+    margin-top: 40px;
+    width     : 100%;
+    background: #F1F1F1;
+}
+#containter-box ul{
+    list-style: none;
+    margin    : 0;
+    padding   : 10px;
+}
+#containter-box ul li{
+    padding: 2px 0;
+    margin : 0;
+}
+#containter-box ul li a{
+    font-size: 12px;
+}
+#containter-box ul li img{
+    height      : 20px;
+    margin-right: 5px;
+}

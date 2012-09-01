@@ -1,0 +1,32 @@
+/*
+=====================================================================
+Package  : Css
+Name     : ultimos-anuncios.css
+Author   : Jesús Díaz 
+Copyright: Agilecode
+=====================================================================
+*/
+.wrapper-anuncio{
+    float                : left;
+    margin               : 5px;
+    width                : 160px;
+    border               : 1px solid #D1D1D1;
+    -webkit-border-radius: 3px;
+    border-radius        : 3px;    
+    text-align           : center;
+}
+.wrapper-anuncio img{
+    height: 100px;
+    width : 120px;
+    margin: 10px 20px 0 20px;
+}
+.wrapper-anuncio .titulo-anuncio{
+    font           : 11px Helvetica, Tahoma, Verdana;
+    text-decoration: none;
+    color          : #666666;
+    height         : 40px;
+}
+.wrapper-anuncio .precio-anuncio{
+    background: #2A86B9;
+    color     : #F1F1F1;
+}

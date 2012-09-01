@@ -1,0 +1,25 @@
+/*
+=====================================================================
+Package  : Css
+Name     : mis-anuncios.css
+Author   : Jesús Díaz 
+Copyright: Agilecode
+=====================================================================
+*/
+#table-mis-anuncios{
+	border-spacing: 0;
+	color         : #444444;
+	font          : Helvetica, Tahoma, Verdana;
+	font-size     : 13px;
+	text-align    : center;
+	width         : 100%;
+}
+#table-mis-anuncios thead{
+	background: #F1F1F1;
+	color     : #000000;
+	font-size : 14px;
+}
+#table-mis-anuncios img{
+	height: 60px;
+	width : 75px;
+}
